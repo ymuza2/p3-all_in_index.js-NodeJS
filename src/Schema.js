@@ -11,9 +11,13 @@ const {
 
 
 
-
-
-const rT = require('./Query');
+//definido en index
+//todos los nombres definidos deben significar algo
+//crear carpeta domain
+//todos los files de types , mutations y querys => dentro de domain
+//cambiar course, grades, students por courseType, etc ,etc.
+//
+const rT = require('./Query'); 
 const rM = require('./Mutation');
 
 const schema = new GraphQLSchema({ 
