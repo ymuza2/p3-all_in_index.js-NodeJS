@@ -12,7 +12,7 @@ const {
 
 
 const students = require('../Student.json');
-const ct = require('./Courses');
+const ct = require('./CourseType');
 
 
 const studentType = new GraphQLObjectType({

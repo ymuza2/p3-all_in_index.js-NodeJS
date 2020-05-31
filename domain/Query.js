@@ -18,11 +18,11 @@ const grades = require('../Grade.json');
 
 const students = require('../Student.json');
 
-const st = require('./Students.js');
+const st = require('./StudentType.js');
 
-const gt = require('./Grades.js');
+const gt = require('./GradeType.js');
 
-const ct = require('./Courses.js');
+const ct = require('./CourseType.js');
 
 
 const RootQueryType = new GraphQLObjectType({ 
